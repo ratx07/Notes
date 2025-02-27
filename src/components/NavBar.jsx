@@ -1,10 +1,18 @@
-import NavLink from "react-router-dom";
-//import React from "react";
+import { NavLink } from "react-router-dom";
+
 const NavBar = () => {
+  const style = {
+    margin: "10px",
+    fontSize: "20px",
+  };
   return (
     <div>
-      <NavLink to="/">Home</NavLink>
-      <NavLink to="/pastes">Pastes</NavLink>
+      <NavLink style={style} to="/">
+        Home
+      </NavLink>
+      <NavLink style={style} to="/pastes">
+        Notes
+      </NavLink>
     </div>
   );
 };
