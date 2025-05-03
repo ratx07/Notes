@@ -1,8 +1,32 @@
-# React + Vite
+#📝Notes App
+A sleek and intuitive note-taking application built using React, Redux Toolkit, and React Router. The app lets users create, edit, view, search, and share text-based notes ("pastes"). It uses local state management and routing for a clean and responsive user experience.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**🚀 Features**
+Create new notes (with title and content)
 
-Currently, two official plugins are available:
+Edit or update existing notes
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Search notes by title
+
+Share note content via a generated link
+
+Copy note content to clipboard
+
+View notes in a read-only mode
+
+State management with Redux Toolkit
+
+Toast notifications for actions like copy, delete, and share
+
+**🧰 Tech Stack**
+React
+
+Redux Toolkit
+
+React Router DOM
+
+React Hot Toast
+
+JavaScript + JSX
+
+Plain CSS (inline styles)
