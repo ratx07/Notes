@@ -1,4 +1,4 @@
-#📝Notes App
+# 📝Notes App
 A sleek and intuitive note-taking application built using React, Redux Toolkit, and React Router. The app lets users create, edit, view, search, and share text-based notes ("pastes"). It uses local state management and routing for a clean and responsive user experience.
 
 **🚀 Features**
